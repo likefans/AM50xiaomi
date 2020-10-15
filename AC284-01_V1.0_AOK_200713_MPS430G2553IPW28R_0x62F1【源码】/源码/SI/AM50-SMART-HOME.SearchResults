@@ -1,0 +1,8 @@
+---- PowerDownSave Matches (7 in 3 files) ----
+ADSampling.c (c:\users\administrator\desktop\linshi\am50-smart-home\source):void PowerDownSave (void)
+ADSampling.c (c:\users\administrator\desktop\linshi\am50-smart-home\source):      PowerDownSave();
+ADSampling.c (c:\users\administrator\desktop\linshi\am50-smart-home\source):      PowerDownSave();
+ADSampling.c (c:\users\administrator\desktop\linshi\am50-smart-home\source):      PowerDownSave();
+Extern.h (c:\users\administrator\desktop\linshi\am50-smart-home\source):  extern void PowerDownSave (void);
+PowerInScan.c (c:\users\administrator\desktop\linshi\am50-smart-home\source):void PowerDownSave (void)
+PowerInScan.c (c:\users\administrator\desktop\linshi\am50-smart-home\source):      PowerDownSave();

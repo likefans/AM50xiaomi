@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3346916641</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\source\Initialize.c</file>
+            <file>$PROJ_DIR$\source\LINUart.c</file>
+            <file>$PROJ_DIR$\source\main.c</file>
+            <file>$PROJ_DIR$\source\MotorControl.c</file>
+            <file>$PROJ_DIR$\source\protest.c</file>
+            <file>$PROJ_DIR$\source\KeyManage.c</file>
+            <file>$PROJ_DIR$\source\GlobalVariable.c</file>
+            <file>$PROJ_DIR$\source\SignalSampling.c</file>
+            <file>$PROJ_DIR$\source\ADSampling.c</file>
+            <file>$PROJ_DIR$\source\flash.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Initialize.pbi</file>
+            <file>$PROJ_DIR$\source\Define.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MotorControl.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\Initialize.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\AM50TM-TI.txt</file>
+            <file>$PROJ_DIR$\Debug\Obj\GlobalVariable.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\protest.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADSampling.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SignalSampling.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\GlobalVariable.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\source\Extern.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LINUart.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MotorControl.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\SignalSampling.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\LINUart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+            <file>$PROJ_DIR$\source\Typedef.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\protest.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\KeyManage.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\AM65-68-95-TI方案开合帘1.5N新机芯.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\List\AM50TM-TI.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.r43</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\KeyManage.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADSampling.pbi</file>
+            <file>$PROJ_DIR$\source\Time.c</file>
+            <file>$PROJ_DIR$\source\timer.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 18 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\Initialize.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21 55 53 30 40 57 39 36 27 47 28 44 13 37 12 56 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\LINUart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 53 21 30 40 57 39 28 36 27 11 44 13 37 12 56 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 37 57 53 44 12 56 39 47 28 55 36 30 40 21 27 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\MotorControl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 53 21 30 40 57 39 28 36 27 11 44 13 37 12 56 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\protest.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 44 53 12 56 57 39 13 28 55 36 30 40 21 27 11 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\KeyManage.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 21 53 30 40 57 36 27 39 28 44 13 37 12 56 11 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\GlobalVariable.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 13 37 57 47 44 12 56 39 55 36 30 40 21 27 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\SignalSampling.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36 57 27 53 55 30 40 21 39 47 28 44 13 37 12 56 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\ADSampling.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 37 57 53 44 12 56 39 47 28 55 36 30 40 21 27 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 55 21 30 36 57 40 39 28 44 13 37 12 27 11 56 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\AM50TM-TI.txt</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 54 22 46 19 16 48 29 33 31 41 32 25 15 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\Time.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 37 57 53 44 12 56 39 47 28 55 36 30 40 21 27 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 55 53 57 12 21 27 40 56 37 30 44 36 13 39 47 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 44 53 12 56 57 39 13 47 28 55 36 30 40 21 27 11</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

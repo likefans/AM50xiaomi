@@ -1,0 +1,125 @@
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=852938178
+[State Storage]
+Control Register=0
+[Sequencer]
+Control Register=0
+NextState0=0
+NextState1=0
+[Action Register]
+Break=2
+State Storage=2
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=u8 [12]	4	0
+[watch_formats]
+Fmt0={W}0:*VUart.Data_Buffer	4	0
+Fmt1={W}0:Current_Temperature	3	0
+Fmt2={W}0:Current_Voltage	3	0
+Fmt3={W}0:EUSART_DATA_HEAD	4	0
+Fmt4={W}0:Flag.High_VOL_Protect	4	0
+Fmt5={W}0:Flag.Low_VOL_Protect	4	0
+Fmt6={W}0:Flag_Motor.Adj_Limit_Point	4	0
+Fmt7={W}0:Flag_Motor.Hand_Drag	4	0
+Fmt8={W}0:Flag_Motor.Journey_Change	4	0
+Fmt9={W}0:Flag_Motor.Journey_Set_OK	3	0
+Fmt10={W}0:Flag_Motor.Meet_Plugb	4	0
+Fmt11={W}0:Flag_Motor.Single_Journey	3	0
+Fmt12={W}0:Flag_Motor.Wait_Set_Journey	4	0
+Fmt13={W}0:HandDrag_SpeedControl_Buf	3	0
+Fmt14={W}0:Meet_Plugb_Event	3	0
+Fmt15={W}0:Motor_Max_Speed	3	0
+Fmt16={W}0:Motor_Speed	3	0
+Fmt17={W}0:No_Power_In_Cnt	3	0
+Fmt18={W}0:P2DIR	4	0
+Fmt19={W}0:P2IE	4	0
+Fmt20={W}0:P2IES	4	0
+Fmt21={W}0:P2IN	4	0
+Fmt22={W}0:P2REN	4	0
+Fmt23={W}0:P3IN	4	0
+Fmt24={W}0:Power_In_Array[0].In_Cnt	3	0
+Fmt25={W}0:Power_In_Array[0].N0_In_Cnt	3	0
+Fmt26={W}0:Power_In_Array[1].In_Cnt	3	0
+Fmt27={W}0:Power_In_Array[1].N0_In_Cnt	3	0
+Fmt28={W}0:Power_In_Array[i].In_Cnt	3	0
+Fmt29={W}0:Target_Speed	3	0
+Fmt30={W}0:Temperature_Over_Cnt	3	0
+Fmt31={W}0:VUart.Read_Write	4	0
+Fmt32={W}0:i	3	0
+Fmt33={W}0:temp1	4	0
+Fmt34={W}0:temp2	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\source\PowerInScan.c}.168.2" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\source\LINUart.c}.279.3" 0 0 0 0 "" 0 ""
+Count=2
+[FET]
+Clock mode=38
+Extended Clock mode=-1
+Secure Password=
+Extended Clock Control Enable=1
+Advanced Extended Clock Control=0
+Emulation mode=0
+Free running=0
+Shutting Down=3
+[Memory Dump]
+Start address=
+Lenghth=
+Address info=0
+Format=0
+Dump registers=0
+PC=0
+SP=0
+SR=0
+all registers=0
+File name=
+[Aliases]
+Count=0
+SuppressDialog=0

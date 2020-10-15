@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<settings>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <SumEnabled>0</SumEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemoryMap>
+        <Enabled>0</Enabled>
+        <Base>0</Base>
+        <UseAuto>0</UseAuto>
+        <TypeViolation>1</TypeViolation>
+        <UnspecRange>1</UnspecRange>
+        <ActionState>1</ActionState>
+    </MemoryMap>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <DebugChecksum>
+        <Checksum>1877973698</Checksum>
+    </DebugChecksum>
+    <State_Storage>
+        <Control_Register>0</Control_Register>
+    </State_Storage>
+    <Sequencer>
+        <Control_Register>0</Control_Register>
+        <NextState0>0</NextState0>
+        <NextState1>0</NextState1>
+    </Sequencer>
+    <Action_Register>
+        <Break>2</Break>
+        <State_Storage>2</State_Storage>
+    </Action_Register>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>0</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+    </DriverProfiling>
+    <EEM_State_Storage>
+        <Buffer>010000000000000000000000</Buffer>
+    </EEM_State_Storage>
+    <EEM_Sequencer>
+        <Buffer>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Buffer>
+    </EEM_Sequencer>
+    <EEM_Cycle_Counter_0>
+        <Counter0>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Counter0>
+    </EEM_Cycle_Counter_0>
+    <EEM_Cycle_Counter_1>
+        <Counter1>0000000000000000000000000000000000000000000000000000000000000000</Counter1>
+    </EEM_Cycle_Counter_1>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <array_types>
+        <Fmt0>u8 [7]	4	0</Fmt0>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}0:Flag_Motor.PowerDown_Remember	3	0</Fmt0>
+        <Fmt1>{W}0:Motor_Speed	3	0</Fmt1>
+        <Fmt2>{W}0:Motor_Speed_Buff	3	0</Fmt2>
+        <Fmt3>{W}0:Target_Speed	3	0</Fmt3>
+        <Fmt4>{W}1:Date_Position	3	0</Fmt4>
+        <Fmt5>{W}1:Date_type	3	0</Fmt5>
+        <Fmt6>{W}1:Hall_Pulse_Amount	4	0</Fmt6>
+        <Fmt7>{W}1:Hall_Pulse_Amount_Cnt	4	0</Fmt7>
+        <Fmt8>{W}1:IFG1	4	0</Fmt8>
+        <Fmt9>{W}1:TxDataLength	3	0</Fmt9>
+        <Fmt10>{W}1:UCA0BR0	4	0</Fmt10>
+        <Fmt11>{W}1:UCA0BR1	4	0</Fmt11>
+        <Fmt12>{W}1:Uart_Default_location	3	0</Fmt12>
+        <Fmt13>{W}1:Uart_Motor_Percentage	3	0</Fmt13>
+        <Fmt14>{W}1:count	3	0</Fmt14>
+        <Fmt15>{W}1:percent	3	0</Fmt15>
+    </watch_formats>
+    <PowerLog>
+        <Title_0>Energy</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <Title_1>Voltage</Title_1>
+        <Symbol_1>0 4 0</Symbol_1>
+        <Title_2>Current</Title_2>
+        <Symbol_2>0 4 0</Symbol_2>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>Current</Probe0>
+        <ProbeSetup0>0 1 1 2 0 0</ProbeSetup0>
+        <Probe1>Voltage</Probe1>
+        <ProbeSetup1>1 1 1 4 0 0</ProbeSetup1>
+        <Probe2>Energy</Probe2>
+        <ProbeSetup2>4 1 1 10 0 0</ProbeSetup2>
+    </PowerProbe>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <FET>
+        <Clock_mode>39</Clock_mode>
+        <Extended_Clock_mode>1</Extended_Clock_mode>
+        <Secure_Password />
+        <Extended_Clock_Control_Enable>1</Extended_Clock_Control_Enable>
+        <Advanced_Extended_Clock_Control>0</Advanced_Extended_Clock_Control>
+        <Emulation_mode>0</Emulation_mode>
+        <Free_running>0</Free_running>
+        <Shutting_Down>3</Shutting_Down>
+    </FET>
+    <Memory_Dump>
+        <Start_address />
+        <Lenghth />
+        <Address_info>0</Address_info>
+        <Format>0</Format>
+        <Dump_registers>0</Dump_registers>
+        <PC>0</PC>
+        <SP>0</SP>
+        <SR>0</SR>
+        <all_registers>0</all_registers>
+        <File_name />
+    </Memory_Dump>
+    <Aliases>
+        <A0>_ "E:\FuXiaoLing\AC225-03A V3.0\Software\1.5N新机芯_Software-20160623\2N_Software\source\flash.c" ""</A0>
+        <A1>_ "E:\FuXiaoLing\AC225-03A V3.0\Software\1.5N新机芯_Software-20160623\2N_Software\source\main.c" ""</A1>
+        <A2>_ "E:\liuke\AM50-1.2-100-EM-PW——TM\AC284-01_V1.0_AOK_200713_MPS430G2553IPW28R_0x62F1【源码】\源码\source\LINUart.c" ""</A2>
+        <A3>_ "E:\lliuke\AM50-1.2-100-EM-PW——TM\AC284-01_V1.0_AOK_200524A_MPS430G2553IPW28R_0XC1DB3【源码】\源码\source\LINUart.c" ""</A3>
+        <Count>4</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+</settings>

@@ -1,0 +1,136 @@
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-1677933702
+[State Storage]
+Control Register=0
+[Sequencer]
+Control Register=0
+NextState0=0
+NextState1=0
+[Action Register]
+Break=2
+State Storage=2
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+[EEM State Storage]
+Buffer=BAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Sequencer]
+Buffer=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Cycle Counter 0]
+Counter0=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[EEM Cycle Counter 1]
+Counter1=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[PowerLog]
+Title_0=Energy
+Symbol_0=0 4 0
+Title_1=Voltage
+Symbol_1=0 4 0
+Title_2=Current
+Symbol_2=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[PowerProbe]
+Frequency=10000
+Probe0=Current
+ProbeSetup0=0 1 1 2 0 0
+Probe1=Voltage
+ProbeSetup1=1 1 1 4 0 0
+Probe2=Energy
+ProbeSetup2=4 1 1 10 0 0
+[array_types]
+Fmt0=u8 [24]	1	0
+Fmt1=u8 [7]	4	0
+[watch_formats]
+Fmt0={W}0:Flag_Motor.PowerDown_Remember	3	0
+Fmt1={W}0:Motor_Speed	3	0
+Fmt2={W}0:Motor_Speed_Buff	3	0
+Fmt3={W}0:Target_Speed	3	0
+Fmt4={W}1:Current_Voltage	3	0
+Fmt5={W}1:Hall_Pulse_Amount	4	0
+Fmt6={W}1:Hall_Pulse_Amount_Cnt	3	0
+Fmt7={W}1:IFG1	4	0
+Fmt8={W}1:P1IN	4	0
+Fmt9={W}1:UCA0BR0	4	0
+Fmt10={W}1:UCA0BR1	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{D:\Program Files (x86)}.282.10" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{D:\Program Files (x86)}.293.1" 0 0 0 0 "" 0 ""
+Count=2
+[FET]
+Clock mode=39
+Extended Clock mode=1
+Secure Password=
+Extended Clock Control Enable=1
+Advanced Extended Clock Control=0
+Emulation mode=0
+Free running=0
+Shutting Down=3
+[Memory Dump]
+Start address=
+Lenghth=
+Address info=0
+Format=0
+Dump registers=0
+PC=0
+SP=0
+SR=0
+all registers=0
+File name=
+[Aliases]
+A0=_ "E:\FuXiaoLing\AC225-03A V3.0\Software\1.5NÐÂ»úÐ¾_Software-20160623\2N_Software\source\flash.c" ""
+A1=_ "E:\FuXiaoLing\AC225-03A V3.0\Software\1.5NÐÂ»úÐ¾_Software-20160623\2N_Software\source\main.c" ""
+A2=_ "F:\eç›˜\FuXiaoLing\AM50å¼€åˆå¸˜\1.5Næ–°æœºèŠ?- æ”¹å–„æŽ‰ç”µè®°å¿†è¡Œç¨‹\source\KeyManage.c" "F:\eÅÌ\FuXiaoLing\AM50¿ªºÏÁ±\1.5NÐÂ»úÐ¾ - ¸ÄÉÆµôµç¼ÇÒäÐÐ³Ì\source\KeyManage.c"
+A3=_ "F:\eç›˜\FuXiaoLing\AM50å¼€åˆå¸˜\1.5Næ–°æœºèŠ?- æ”¹å–„æŽ‰ç”µè®°å¿†è¡Œç¨‹\source\MotorControl.c" "F:\eÅÌ\FuXiaoLing\AM50¿ªºÏÁ±\1.5NÐÂ»úÐ¾ - ¸ÄÉÆµôµç¼ÇÒäÐÐ³Ì\source\MotorControl.c"
+A4=_ "F:\eç›˜\FuXiaoLing\AM50å¼€åˆå¸˜\1.5Næ–°æœºèŠ?- æ”¹å–„æŽ‰ç”µè®°å¿†è¡Œç¨‹\source\main.c" "F:\eÅÌ\FuXiaoLing\AM50¿ªºÏÁ±\1.5NÐÂ»úÐ¾ - ¸ÄÉÆµôµç¼ÇÒäÐÐ³Ì\source\main.c"
+A5=_ "G:\é‘«åŒåˆ›ç”µå­\ç ”å‘éƒ¨\é¡¹ç›®èµ„æ–™\è½åœ°é¡¹ç›®\AM50\ç¨‹åº\AM50-SMART-HOME\source\LINUart.c" "G:\öÎÍ¬´´µç×Ó\ÑÐ·¢²¿\ÏîÄ¿×ÊÁÏ\ÂäµØÏîÄ¿\AM50\³ÌÐò\AM50-SMART-HOME\source\LINUart.c"
+Count=6
+SuppressDialog=1
